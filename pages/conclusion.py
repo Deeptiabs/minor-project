@@ -21,7 +21,7 @@ st.markdown("Risk Management: Helps identify and manage investment risks.Perform
 
 st.header("Conclusion")
 
-
+st.markdown("In conclusion, the financial portfolio analysis conducted in this project has yielded valuable insights into the performance and risk profile of the portfolio under review. Through a comprehensive examination of asset allocation, historical returns, and risk metrics, we have identified areas for optimization and strategic adjustments. The analysis has highlighted the need for a more diversified approach to mitigate risks, and we recommend rebalancing the portfolio to align it better with the client's long-term financial objectives and risk tolerance. As financial markets continue to evolve, regular monitoring and adjustments will be crucial to ensure that the portfolio remains aligned with changing market conditions. This analysis provides a foundation for informed decision-making and positions the portfolio for potential long-term growth and stability.")
 
 
 

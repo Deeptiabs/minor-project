@@ -1,14 +1,14 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
-import plotly.express as px
+import plotly.express as px 
 import os
 
 BASE_DIR = 'datasets/currencies/'
 files = os.listdir(BASE_DIR)
 files = [BASE_DIR+file for file in files]
 
-st.title("Financial Portfolio Analysis")
+st.title("Financial Portfolio Analysis...")
 
 currencies = st.sidebar.radio('Select a currencies', files)
 
@@ -34,6 +34,9 @@ fig1 = px.bar(df, 'Year', 'Low', title="currencies graph for low")
 st.plotly_chart(fig1, use_container_width=True)
 
 
+
+
 st.subheader("Currencies ytd gains")
-fig1 = px.line(df,'Year','YTD Gain', title="currencies graph for ytd gains")
+fig1 = px.bar(df,'Year','YTD Gain', title="currencies graph for ytd gains")
 st.plotly_chart(fig1, use_container_width=True)
+
